@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C60EB541537A77800BD78A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C60EB531537A77800BD78A7 /* UIKit.framework */; };
+		9C60EB561537A77800BD78A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C60EB551537A77800BD78A7 /* Foundation.framework */; };
+		9C60EB581537A77800BD78A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C60EB571537A77800BD78A7 /* CoreGraphics.framework */; };
+		9C60EB5E1537A77800BD78A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C60EB5C1537A77800BD78A7 /* InfoPlist.strings */; };
+		9C60EB601537A77800BD78A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB5F1537A77800BD78A7 /* main.m */; };
+		9C60EB641537A77800BD78A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB631537A77800BD78A7 /* AppDelegate.m */; };
+		9C60EB671537A77800BD78A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB661537A77800BD78A7 /* ViewController.m */; };
+		9C60EB861537A83100BD78A7 /* MOOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB7E1537A83100BD78A7 /* MOOTableViewController.m */; };
+		9C60EB871537A83100BD78A7 /* MOOTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB801537A83100BD78A7 /* MOOTableViewDataSource.m */; };
+		9C60EB881537A83100BD78A7 /* MOOTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB821537A83100BD78A7 /* MOOTableViewDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C60EB4F1537A77800BD78A7 /* MOOTableViewManagementDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOOTableViewManagementDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C60EB531537A77800BD78A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C60EB551537A77800BD78A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C60EB571537A77800BD78A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C60EB5B1537A77800BD78A7 /* MOOTableViewManagementDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOOTableViewManagementDemo-Info.plist"; sourceTree = "<group>"; };
+		9C60EB5D1537A77800BD78A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C60EB5F1537A77800BD78A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C60EB611537A77800BD78A7 /* MOOTableViewManagementDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOOTableViewManagementDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9C60EB621537A77800BD78A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C60EB631537A77800BD78A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C60EB651537A77800BD78A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C60EB661537A77800BD78A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C60EB771537A83100BD78A7 /* MOOCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOCell.h; sourceTree = "<group>"; };
+		9C60EB791537A83100BD78A7 /* MOOFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOFooter.h; sourceTree = "<group>"; };
+		9C60EB7B1537A83100BD78A7 /* MOOHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOHeader.h; sourceTree = "<group>"; };
+		9C60EB7D1537A83100BD78A7 /* MOOTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOTableViewController.h; sourceTree = "<group>"; };
+		9C60EB7E1537A83100BD78A7 /* MOOTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOTableViewController.m; sourceTree = "<group>"; };
+		9C60EB7F1537A83100BD78A7 /* MOOTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOTableViewDataSource.h; sourceTree = "<group>"; };
+		9C60EB801537A83100BD78A7 /* MOOTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOTableViewDataSource.m; sourceTree = "<group>"; };
+		9C60EB811537A83100BD78A7 /* MOOTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOTableViewDelegate.h; sourceTree = "<group>"; };
+		9C60EB821537A83100BD78A7 /* MOOTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOTableViewDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C60EB4C1537A77800BD78A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C60EB541537A77800BD78A7 /* UIKit.framework in Frameworks */,
+				9C60EB561537A77800BD78A7 /* Foundation.framework in Frameworks */,
+				9C60EB581537A77800BD78A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C60EB441537A77800BD78A7 = {
+			isa = PBXGroup;
+			children = (
+				9C60EB591537A77800BD78A7 /* MOOTableViewManagementDemo */,
+				9C60EB741537A79200BD78A7 /* External */,
+				9C60EB521537A77800BD78A7 /* Frameworks */,
+				9C60EB501537A77800BD78A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C60EB501537A77800BD78A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C60EB4F1537A77800BD78A7 /* MOOTableViewManagementDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C60EB521537A77800BD78A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C60EB531537A77800BD78A7 /* UIKit.framework */,
+				9C60EB551537A77800BD78A7 /* Foundation.framework */,
+				9C60EB571537A77800BD78A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C60EB591537A77800BD78A7 /* MOOTableViewManagementDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C60EB621537A77800BD78A7 /* AppDelegate.h */,
+				9C60EB631537A77800BD78A7 /* AppDelegate.m */,
+				9C60EB651537A77800BD78A7 /* ViewController.h */,
+				9C60EB661537A77800BD78A7 /* ViewController.m */,
+				9C60EB5A1537A77800BD78A7 /* Supporting Files */,
+			);
+			path = MOOTableViewManagementDemo;
+			sourceTree = "<group>";
+		};
+		9C60EB5A1537A77800BD78A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C60EB5B1537A77800BD78A7 /* MOOTableViewManagementDemo-Info.plist */,
+				9C60EB5C1537A77800BD78A7 /* InfoPlist.strings */,
+				9C60EB5F1537A77800BD78A7 /* main.m */,
+				9C60EB611537A77800BD78A7 /* MOOTableViewManagementDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C60EB741537A79200BD78A7 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				9C60EB761537A83100BD78A7 /* MOOTableViewManagement */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		9C60EB761537A83100BD78A7 /* MOOTableViewManagement */ = {
+			isa = PBXGroup;
+			children = (
+				9C60EB771537A83100BD78A7 /* MOOCell.h */,
+				9C60EB791537A83100BD78A7 /* MOOFooter.h */,
+				9C60EB7B1537A83100BD78A7 /* MOOHeader.h */,
+				9C60EB7D1537A83100BD78A7 /* MOOTableViewController.h */,
+				9C60EB7E1537A83100BD78A7 /* MOOTableViewController.m */,
+				9C60EB7F1537A83100BD78A7 /* MOOTableViewDataSource.h */,
+				9C60EB801537A83100BD78A7 /* MOOTableViewDataSource.m */,
+				9C60EB811537A83100BD78A7 /* MOOTableViewDelegate.h */,
+				9C60EB821537A83100BD78A7 /* MOOTableViewDelegate.m */,
+			);
+			name = MOOTableViewManagement;
+			path = ../MOOTableViewManagement;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C60EB4E1537A77800BD78A7 /* MOOTableViewManagementDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C60EB6D1537A77800BD78A7 /* Build configuration list for PBXNativeTarget "MOOTableViewManagementDemo" */;
+			buildPhases = (
+				9C60EB4B1537A77800BD78A7 /* Sources */,
+				9C60EB4C1537A77800BD78A7 /* Frameworks */,
+				9C60EB4D1537A77800BD78A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOOTableViewManagementDemo;
+			productName = MOOTableViewManagementDemo;
+			productReference = 9C60EB4F1537A77800BD78A7 /* MOOTableViewManagementDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C60EB461537A77800BD78A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = peyton;
+			};
+			buildConfigurationList = 9C60EB491537A77800BD78A7 /* Build configuration list for PBXProject "MOOTableViewManagementDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C60EB441537A77800BD78A7;
+			productRefGroup = 9C60EB501537A77800BD78A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C60EB4E1537A77800BD78A7 /* MOOTableViewManagementDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C60EB4D1537A77800BD78A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C60EB5E1537A77800BD78A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C60EB4B1537A77800BD78A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C60EB601537A77800BD78A7 /* main.m in Sources */,
+				9C60EB641537A77800BD78A7 /* AppDelegate.m in Sources */,
+				9C60EB671537A77800BD78A7 /* ViewController.m in Sources */,
+				9C60EB861537A83100BD78A7 /* MOOTableViewController.m in Sources */,
+				9C60EB871537A83100BD78A7 /* MOOTableViewDataSource.m in Sources */,
+				9C60EB881537A83100BD78A7 /* MOOTableViewDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C60EB5C1537A77800BD78A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C60EB5D1537A77800BD78A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C60EB6B1537A77800BD78A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C60EB6C1537A77800BD78A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C60EB6E1537A77800BD78A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Prefix.pch";
+				INFOPLIST_FILE = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C60EB6F1537A77800BD78A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Prefix.pch";
+				INFOPLIST_FILE = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C60EB491537A77800BD78A7 /* Build configuration list for PBXProject "MOOTableViewManagementDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C60EB6B1537A77800BD78A7 /* Debug */,
+				9C60EB6C1537A77800BD78A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C60EB6D1537A77800BD78A7 /* Build configuration list for PBXNativeTarget "MOOTableViewManagementDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C60EB6E1537A77800BD78A7 /* Debug */,
+				9C60EB6F1537A77800BD78A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C60EB461537A77800BD78A7 /* Project object */;
+}
