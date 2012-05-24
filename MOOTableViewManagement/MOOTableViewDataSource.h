@@ -10,8 +10,6 @@
 
 @protocol MOOTableViewDataSource <UITableViewDataSource>
 
-@property (nonatomic, unsafe_unretained) id<MOOTableViewController> controller;
-
 - (id)tableView:(UITableView *)tableView objectForRowAtIndexPath:(NSIndexPath *)indexPath;
 - (Class)tableView:(UITableView *)tableView cellClassForObject:(id)object;
 

@@ -7,13 +7,16 @@
 
 #import "MOOTableViewDelegate.h"
 
+#import <objc/message.h>
+
+#import "MOOCell.h"
 #import "MOOFooter.h"
 #import "MOOHeader.h"
 #import "MOOTableViewDataSource.h"
 
 @implementation MOOTableViewDelegate
 
-#pragma mark - UITableViewDelegate
+#pragma mark - UITableViewDelegate methods
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section;
 {
@@ -112,6 +115,20 @@
         return 0.0f;
     
     return [cls tableView:tableView footerHeightForObject:object];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
+{
+    if (![tableView.dataSource conformsToProtocol:@protocol(MOOTableViewDataSource)])
+        return tableView.rowHeight;
+    
+    id<MOOTableViewDataSource> dataSource = (id<MOOTableViewDataSource>)tableView.dataSource;
+    id object = [dataSource tableView:tableView objectForRowAtIndexPath:indexPath];
+    Class cellClass = [dataSource tableView:tableView cellClassForObject:object];
+    if (!([cellClass conformsToProtocol:@protocol(MOOCell)] && [cellClass respondsToSelector:@selector(tableView:rowHeightForObject:)]))
+        return tableView.rowHeight;
+    
+    return [cellClass tableView:tableView rowHeightForObject:object];
 }
 
 @end

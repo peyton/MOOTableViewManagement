@@ -7,7 +7,6 @@
 
 #import "MOOTableViewDataSource.h"
 
-
 #import "MOOCell.h"
 
 @implementation MOOTableViewDataSource

@@ -9,8 +9,6 @@
 
 @protocol MOOTableViewDelegate <UITableViewDelegate>
 
-@property (nonatomic, unsafe_unretained) id<MOOTableViewController> controller;
-
 @end
 
 @interface MOOTableViewDelegate : NSObject <MOOTableViewDelegate>
