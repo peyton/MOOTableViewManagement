@@ -32,7 +32,10 @@
     }
     
     if ([cell conformsToProtocol:@protocol(MOOCell)])
+    {
         [(id<MOOCell>)cell tableView:tableView configureWithObject:object];
+//        [cell setNeedsLayout];
+    }
     
     return cell;
 }
