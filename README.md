@@ -1,3 +1,5 @@
+# Work in progress #
+
 MOOTableViewManagement rips the table view management paradigm from [Three20](https://github.com/facebook/three20)
 
-Further explanation forthcoming.
+This code is hosted mainly for me to use in my own projects. Further explanation forthcoming.
