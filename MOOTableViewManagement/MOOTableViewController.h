@@ -10,10 +10,14 @@
 
 @protocol MOOTableViewController <NSObject>
 
-- (void)didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath;
+@optional
+- (void)tableView:(UITableView *)tableView didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
 @interface MOOTableViewController : UITableViewController <MOOTableViewController>
+
+@property (nonatomic, strong) id<MOOTableViewDataSource> dataSource;
+@property (nonatomic, strong) id<MOOTableViewDelegate> delegate;
 
 @end

@@ -7,7 +7,11 @@
 
 #import "MOOTableViewController.h"
 
+@protocol MOOTableViewController;
+
 @protocol MOOTableViewDelegate <UITableViewDelegate>
+
+@property (nonatomic, weak) id<MOOTableViewController> viewController;
 
 @end
 
