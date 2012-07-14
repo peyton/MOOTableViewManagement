@@ -28,7 +28,13 @@
     if (dataSource == self.dataSource)
         return;
     
+    // Decommission old data source
+    self.dataSource.viewController = nil;
+    
     _dataSource = dataSource;
+    
+    // Configure with new data source
+    self.dataSource.viewController = self;
     self.tableView.dataSource = self.dataSource;
 }
 
@@ -37,7 +43,12 @@
     if (delegate == self.delegate)
         return;
     
+    // Decommission old delegate
+    self.delegate.viewController = nil;
+    
     _delegate = delegate;
+    
+    // Configure with new delegate
     self.delegate.viewController = self;
     self.tableView.delegate = self.delegate;
 }

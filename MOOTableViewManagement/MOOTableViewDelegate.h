@@ -11,7 +11,7 @@
 
 @protocol MOOTableViewDelegate <UITableViewDelegate>
 
-@property (nonatomic, weak) id<MOOTableViewController> viewController;
+@property (nonatomic, weak) UIViewController<MOOTableViewController> *viewController;
 
 @end
 

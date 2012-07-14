@@ -10,6 +10,8 @@
 
 @protocol MOOTableViewDataSource <UITableViewDataSource>
 
+@property (nonatomic, weak) UIViewController<MOOTableViewController> *viewController;
+
 - (id)tableView:(UITableView *)tableView objectForRowAtIndexPath:(NSIndexPath *)indexPath;
 - (Class)tableView:(UITableView *)tableView cellClassForObject:(id)object;
 

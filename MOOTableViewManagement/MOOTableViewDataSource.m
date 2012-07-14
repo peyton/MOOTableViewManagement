@@ -10,6 +10,7 @@
 #import "MOOCell.h"
 
 @implementation MOOTableViewDataSource
+@synthesize viewController = _viewController;
 
 #pragma mark - UITableViewDataSource protocol methods
 
