@@ -34,8 +34,9 @@
     
     if ([cell conformsToProtocol:@protocol(MOOCell)])
     {
+        if ([cell respondsToSelector:@selector(setDataSource:)])
+            [(id<MOOCell>)cell setDataSource:self];
         [(id<MOOCell>)cell tableView:tableView configureWithObject:object];
-//        [cell setNeedsLayout];
     }
     
     return cell;
