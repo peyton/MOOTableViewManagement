@@ -15,8 +15,7 @@
 #import "MOOTableViewController.h"
 #import "MOOTableViewDataSource.h"
 
-@implementation MOOTableViewDelegate
-@synthesize viewController = _viewController;
+@concreteprotocol(MOOTableViewDelegate)
 
 #pragma mark - UITableViewDelegate methods
 
@@ -148,5 +147,9 @@
             [self.viewController tableView:tableView didSelectObject:object atIndexPath:indexPath];
         }
 }
+
+@end
+
+@implementation MOOTableViewDelegate
 
 @end

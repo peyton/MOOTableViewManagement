@@ -1,44 +1,31 @@
-# Mac OS X Finder and whatnot
+# Ignore the Mac OS X .DS_Store files
 .DS_Store
+.idea/
+*.orig
 
-
-# Sparkle distribution Private Key (Don't check me in!)
-dsa_priv.pem
-
-
-# XCode (and ancestors) per-user config (very noisy, and not relevant)
-xcuserdata
-*.mode1
+# Ignore user-specific settings
 *.mode1v3
 *.mode2v3
-*.perspective
-*.perspectivev3
 *.pbxuser
-*.xcuserdata
-*.xcuserstate
+*.perspectivev3
 *.xcworkspace
+xcuserdata
 
+# Ignore textmate build errors
+*.tm_build_errors
 
-# Generated files
-VersionX-revision.h
-
-
-# build products
-build/
-
-
-# Other source repository archive directories (protects when importing)
-.hg
-.svn
-CVS
-
-
-# automatic backup files
-*~.nib
+# Ignore temp nibs and swap files
 *.swp
+*~.nib
+
+# Ignore the build, since we don't want archived builds
+build
+
+# Ignore temp emacs files
 *~
-*(Autosaved).rtfd/
-Backup[ ]of[ ]*.pages/
-Backup[ ]of[ ]*.key/
-Backup[ ]of[ ]*.numbers/
-[#]*[#]
+
+.gitattributes
+
+# Ignore CocoaPods
+Podfile.lock
+Pods/

@@ -5,6 +5,9 @@
 //  Created by Peyton Randolph on 1/24/12.
 //
 
+#import <EXTConcreteProtocol.h>
+
+
 @protocol MOOTableViewDataSource;
 
 @protocol MOOCell <NSObject>

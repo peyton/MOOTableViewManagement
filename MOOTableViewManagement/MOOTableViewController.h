@@ -5,6 +5,7 @@
 //  Created by Peyton Randolph on 1/23/12.
 //
 
+#import <EXTConcreteProtocol.h>
 
 @protocol MOOTableViewDataSource, MOOTableViewDelegate;
 

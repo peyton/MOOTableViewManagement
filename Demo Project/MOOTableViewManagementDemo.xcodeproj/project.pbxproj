@@ -17,6 +17,12 @@
 		9C60EB861537A83100BD78A7 /* MOOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB7E1537A83100BD78A7 /* MOOTableViewController.m */; };
 		9C60EB871537A83100BD78A7 /* MOOTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB801537A83100BD78A7 /* MOOTableViewDataSource.m */; };
 		9C60EB881537A83100BD78A7 /* MOOTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C60EB821537A83100BD78A7 /* MOOTableViewDelegate.m */; };
+		9C848B43178A318900FC4458 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C848B42178A318900FC4458 /* Default-568h@2x.png */; };
+		9C848B47178A31B700FC4458 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C848B46178A31B700FC4458 /* EXTConcreteProtocol.m */; };
+		9C848B49178A326300FC4458 /* MOOCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C848B48178A326300FC4458 /* MOOCell.m */; };
+		9C848B4C178A32EA00FC4458 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C848B4B178A32EA00FC4458 /* EXTRuntimeExtensions.m */; };
+		9C848B4F178A332400FC4458 /* MOOFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C848B4D178A332400FC4458 /* MOOFooter.m */; };
+		9C848B50178A332400FC4458 /* MOOHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C848B4E178A332400FC4458 /* MOOHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,15 @@
 		9C60EB801537A83100BD78A7 /* MOOTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOTableViewDataSource.m; sourceTree = "<group>"; };
 		9C60EB811537A83100BD78A7 /* MOOTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOOTableViewDelegate.h; sourceTree = "<group>"; };
 		9C60EB821537A83100BD78A7 /* MOOTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOTableViewDelegate.m; sourceTree = "<group>"; };
+		9C848B42178A318900FC4458 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		9C848B45178A31B700FC4458 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = ../External/libextobjc/extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
+		9C848B46178A31B700FC4458 /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = ../External/libextobjc/extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		9C848B48178A326300FC4458 /* MOOCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOCell.m; sourceTree = "<group>"; };
+		9C848B4A178A32EA00FC4458 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = ../External/libextobjc/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		9C848B4B178A32EA00FC4458 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = ../External/libextobjc/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		9C848B4D178A332400FC4458 /* MOOFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOFooter.m; sourceTree = "<group>"; };
+		9C848B4E178A332400FC4458 /* MOOHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOOHeader.m; sourceTree = "<group>"; };
+		9C848B51178A357000FC4458 /* MOOTableViewManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOOTableViewManagement.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +115,7 @@
 		9C60EB5A1537A77800BD78A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C848B42178A318900FC4458 /* Default-568h@2x.png */,
 				9C60EB5B1537A77800BD78A7 /* MOOTableViewManagementDemo-Info.plist */,
 				9C60EB5C1537A77800BD78A7 /* InfoPlist.strings */,
 				9C60EB5F1537A77800BD78A7 /* main.m */,
@@ -111,6 +127,7 @@
 		9C60EB741537A79200BD78A7 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				9C848B44178A319E00FC4458 /* libextobjc */,
 				9C60EB761537A83100BD78A7 /* MOOTableViewManagement */,
 			);
 			name = External;
@@ -119,9 +136,13 @@
 		9C60EB761537A83100BD78A7 /* MOOTableViewManagement */ = {
 			isa = PBXGroup;
 			children = (
+				9C848B51178A357000FC4458 /* MOOTableViewManagement.h */,
 				9C60EB771537A83100BD78A7 /* MOOCell.h */,
+				9C848B48178A326300FC4458 /* MOOCell.m */,
 				9C60EB791537A83100BD78A7 /* MOOFooter.h */,
+				9C848B4D178A332400FC4458 /* MOOFooter.m */,
 				9C60EB7B1537A83100BD78A7 /* MOOHeader.h */,
+				9C848B4E178A332400FC4458 /* MOOHeader.m */,
 				9C60EB7D1537A83100BD78A7 /* MOOTableViewController.h */,
 				9C60EB7E1537A83100BD78A7 /* MOOTableViewController.m */,
 				9C60EB7F1537A83100BD78A7 /* MOOTableViewDataSource.h */,
@@ -131,6 +152,17 @@
 			);
 			name = MOOTableViewManagement;
 			path = ../MOOTableViewManagement;
+			sourceTree = "<group>";
+		};
+		9C848B44178A319E00FC4458 /* libextobjc */ = {
+			isa = PBXGroup;
+			children = (
+				9C848B45178A31B700FC4458 /* EXTConcreteProtocol.h */,
+				9C848B46178A31B700FC4458 /* EXTConcreteProtocol.m */,
+				9C848B4A178A32EA00FC4458 /* EXTRuntimeExtensions.h */,
+				9C848B4B178A32EA00FC4458 /* EXTRuntimeExtensions.m */,
+			);
+			name = libextobjc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +191,7 @@
 		9C60EB461537A77800BD78A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = peyton;
 			};
 			buildConfigurationList = 9C60EB491537A77800BD78A7 /* Build configuration list for PBXProject "MOOTableViewManagementDemo" */;
@@ -185,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C60EB5E1537A77800BD78A7 /* InfoPlist.strings in Resources */,
+				9C848B43178A318900FC4458 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C848B47178A31B700FC4458 /* EXTConcreteProtocol.m in Sources */,
 				9C60EB601537A77800BD78A7 /* main.m in Sources */,
 				9C60EB641537A77800BD78A7 /* AppDelegate.m in Sources */,
 				9C60EB671537A77800BD78A7 /* ViewController.m in Sources */,
+				9C848B4C178A32EA00FC4458 /* EXTRuntimeExtensions.m in Sources */,
+				9C848B50178A332400FC4458 /* MOOHeader.m in Sources */,
 				9C60EB861537A83100BD78A7 /* MOOTableViewController.m in Sources */,
+				9C848B4F178A332400FC4458 /* MOOFooter.m in Sources */,
 				9C60EB871537A83100BD78A7 /* MOOTableViewDataSource.m in Sources */,
 				9C60EB881537A83100BD78A7 /* MOOTableViewDelegate.m in Sources */,
+				9C848B49178A326300FC4458 /* MOOCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -236,9 +279,12 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -247,14 +293,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -266,10 +319,13 @@
 		9C60EB6E1537A77800BD78A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../External/libextobjc/extobjc/\"";
 				INFOPLIST_FILE = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,10 +333,13 @@
 		9C60EB6F1537A77800BD78A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../External/libextobjc/extobjc/\"";
 				INFOPLIST_FILE = "MOOTableViewManagementDemo/MOOTableViewManagementDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

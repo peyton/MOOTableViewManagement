@@ -9,15 +9,13 @@
 
 #import "MOOCell.h"
 
-@implementation MOOTableViewDataSource
-@synthesize viewController = _viewController;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+@concreteprotocol(MOOTableViewDataSource)
+#pragma clang pop
+
 
 #pragma mark - UITableViewDataSource protocol methods
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
-{
-    return 0;
-}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 {
@@ -40,6 +38,21 @@
     }
     
     return cell;
+}
+
+@end
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+@implementation MOOTableViewDataSource
+#pragma clang pop
+@synthesize viewController = _viewController;
+
+#pragma mark - UITableViewDataSource methods
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
+{
+    return 0;
 }
 
 #pragma mark - MOOTableViewDataSource protocol required methods

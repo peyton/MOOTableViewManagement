@@ -1,15 +1,22 @@
 //
-//  MOOHeader.h
-//  MOOTableViewManagement
+//  MOOHeader.m
+//  MOOTableViewManagementDemo
 //
-//  Created by Peyton Randolph on 2/15/12.
+//  Created by Peyton Randolph on 7/7/13.
 //
 
-#import <EXTConcreteProtocol.h>
+#import "MOOHeader.h"
 
-@protocol MOOHeader <NSObject>
+@concreteprotocol(MOOHeader)
 
 - (void)tableView:(UITableView *)tableView configureWithObject:(id)object;
+{
+    
+}
+
 + (CGFloat)tableView:(UITableView *)tableView headerHeightForObject:(id)object;
+{
+    return 44.f;
+}
 
 @end

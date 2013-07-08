@@ -5,7 +5,7 @@
 //  Created by Peyton Randolph on 1/23/12.
 //
 
-#import "MOOTableViewController.h"
+#import <EXTConcreteProtocol.h>
 
 @protocol MOOTableViewController;
 

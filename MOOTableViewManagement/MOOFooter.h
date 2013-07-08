@@ -5,6 +5,7 @@
 //  Created by Peyton Randolph on 2/15/12.
 //
 
+#import <EXTConcreteProtocol.h>
 
 @protocol MOOFooter <NSObject>
 
